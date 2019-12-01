@@ -17,17 +17,17 @@ html {
   box-sizing: inherit;
 }
 
-img {
+.card-body img {
   width: 50px;
   margin-left: 100px;
 }
 
-h2 {
+.card-body h2 {
   margin-bottom: 0;
   font-weight: normal;
 }
 
-p {
+.card-body p {
   margin-top: 0;
 }
 

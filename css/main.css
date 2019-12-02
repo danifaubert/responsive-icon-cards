@@ -11,19 +11,30 @@ html {
   text-size-adjust: 100%;
   box-sizing: border-box;
   font: normal 100%/1.3 sans-serif;
+  list-style-type: none;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
-.card-body img {
+.cards {
+  list-style-type: none;
+}
+
+.card-img img {
+  width: 50px;
+  margin-left: 100px;
+}
+
+.card-img {
   width: 50px;
   margin-left: 100px;
 }
 
 .card-body h2 {
   margin-bottom: 0;
+  margin-top: 1rem;
   font-weight: normal;
 }
 
@@ -31,8 +42,18 @@ html {
   margin-top: 0;
 }
 
+.card {
+  list-style-type: none;
+  padding-left: 0;
+}
 
 @media only screen and (min-width: 38em) {
+
+  html {
+    margin: .75em;
+    font-size: 110%;
+    line-height: 1.4;
+  }
 
   .card-body {
     display: flex;
@@ -48,6 +69,12 @@ html {
 
 @media only screen and (min-width: 60em) {
 
+  html {
+    margin: .75em;
+    font-size: 120%;
+    line-height: 1.5;
+  }
+
   .card-body {
     display: flex;
     flex-direction: row;
@@ -61,6 +88,11 @@ html {
 }
 
 @media only screen and (min-width: 90em) {
+
+  html {
+    margin: .75em;
+    font-size: 130%;
+  }
 
   .card-body {
     display: flex;
